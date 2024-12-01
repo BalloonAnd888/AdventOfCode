@@ -1,4 +1,4 @@
 To run file
 
-cd day02
-py day02.py
+cd 2024\python\day01
+py day01.py
