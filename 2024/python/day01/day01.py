@@ -1,6 +1,5 @@
 from collections import Counter
 
-# Part 1
 def p1():
     list1, list2 = [], []
     distance = 0
@@ -20,7 +19,6 @@ def p1():
         
     print("Part 1 answer: ", distance)
 
-# Part 2 
 def p2():
     l, r = [], []
     simScore = 0
