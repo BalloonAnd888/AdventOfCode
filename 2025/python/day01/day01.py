@@ -10,7 +10,7 @@ def p1():
 
     for direction, value in inputs:
             if direction == "L":
-                dial = (dial - value) % 100
+                dial = (dial - value + 100) % 100
             elif direction == "R":
                 dial = (dial + value) % 100
                 
