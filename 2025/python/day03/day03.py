@@ -4,7 +4,6 @@ def p1():
         for line in file:
             inputs.append(list(map(int, line.strip())))
     
-    print(inputs)
     sum = 0
 
     for x in inputs:
@@ -26,7 +25,6 @@ def p2():
         for line in file:
             inputs.append(list(map(int, line.strip())))
     
-    print(inputs)
     sum = 0
 
     for x in inputs:

@@ -6,8 +6,6 @@ def p1():
             for x in line:
                 inputs.append(x.split("-"))
     
-    print(inputs)
-
     idSum = 0
 
     for s, e in inputs:

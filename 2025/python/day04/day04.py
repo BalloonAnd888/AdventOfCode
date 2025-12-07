@@ -4,8 +4,6 @@ def p1():
         for line in file:
             inputs.append(list(line.strip()))
     
-    print(inputs)
-
     ans = 0
     dir = [(0,1), (0, -1), (-1, 0), (1, 0), (-1, -1), (-1, 1), (1, -1), (1, 1)]
 
@@ -26,8 +24,6 @@ def p2():
     with open("input.txt", 'r') as file:
         for line in file:
             inputs.append(list(line.strip()))
-    
-    print(inputs)
 
     ans = 0
     dir = [(0,1), (0, -1), (-1, 0), (1, 0), (-1, -1), (-1, 1), (1, -1), (1, 1)]
